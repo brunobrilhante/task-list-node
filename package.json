@@ -1,0 +1,18 @@
+{
+  "name": "task-list-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunobrilhante/task-list-node.git",
+  "author": "Bruno Brilhante <brunobrilhante53@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sucrase": "^3.35.0"
+  }
+}
